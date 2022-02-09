@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Task 9</title>
+  <link rel="stylesheet" href="931902_fedorova_lab9.css">
+</head>
+<body>    
+    <div class="calc">
+        <table>
+            <tr>
+                <td colspan="5"> 
+                    <div class="panel"><span id="gray">0</span></div>
+                    <div class="panel front"><span id="black">0</span></div></td>
+                
+            </tr>
+            <tr>
+                <td><button onclick="numb('7')">7</button></td>
+                <td><button onclick="numb('8')">8</button></td>
+                <td><button onclick="numb('9')">9</button></td>
+                <td><button onclick="sign('/')">/</button></td>
+                <td><button onclick="clearall()">C</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="numb('4')">4</button></td>
+                <td><button onclick="numb('5')">5</button></td>
+                <td><button onclick="numb('6')">6</button></td>
+                <td><button onclick="sign('*')">*</button></td>
+                <td><button onclick="remove()" id="rem"><-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="numb('1')">1</button></td>
+                <td><button onclick="numb('2')">2</button></td>
+                <td><button onclick="numb('3')">3</button></td>
+                <td><button onclick="sign('-')">-</button></td>
+                <td rowspan="2"><button onclick="equal()" style="height:119px;">=</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="numb('0')" style="width:119px;">0</button></td>
+                <td><button onclick="point()">.</button></td>
+                <td><button onclick="sign('+')">+</button></td>
+            </tr>
+        </table>
+    </div>
+    <script async src="931902_fedorova_lab9.js" ></script>
+</body>
+</html>

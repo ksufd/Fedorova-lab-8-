@@ -1,0 +1,42 @@
+table {
+    border-spacing: 5px;
+}
+.front {
+    white-space: nowrap;
+    position: absolute !important;
+    top: 24px;
+}
+.panel {
+    white-space:nowrap;
+    border-radius: 1px;
+    border: 1px solid black;
+    padding: 0 3px;
+    overflow: hidden;
+    display: table;
+    font-size: 35px;
+    height: 55px;
+    table-layout: fixed;
+    width: 297px;
+}
+#black, #gray {
+    float: right;
+}
+#gray {
+    color: gray;
+}
+button {
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+}
+button:hover {
+    border-radius: 1px;
+    border: 2px solid #799ad1;
+}
+.calc {
+    width: 300px;
+    position: absolute;
+    border: 5px solid #77b9e7;
+    padding: 18px;
+    padding-right:35px;
+}
